@@ -1,0 +1,11 @@
+#! /usr/bin/python3
+
+"""
+`ld` wrapper implemented in python
+"""
+
+import sys
+from ldrand.linker import process_linker
+
+process_linker(sys.argv)
+
